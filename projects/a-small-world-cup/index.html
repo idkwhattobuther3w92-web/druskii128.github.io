@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R1ZCLH6XCR"></script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-R1ZCLH6XCR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -10,29 +11,23 @@
 
   gtag('config', 'G-R1ZCLH6XCR');
 </script>
-
-    <meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>A Small World Cup</title>
-	
-	<script type="text/javascript" src="https://66games.io/cloak.js"></script>
-	
-	<!-- Standardised web app manifest -->
-	<link rel="manifest" href="appmanifest.json" />
-	
-	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png" />
-	<meta name="HandheldFriendly" content="true" />
-	
-	<!-- Chrome for Android web app tags -->
-	<meta name="mobile-web-app-capable" content="yes" />
-	<link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
-
-    <!-- All margins and padding must be zero for the canvas to fill the screen. -->
-	<style type="text/css">
+<meta charset="utf-8"/><meta content="A Small World Cup is a physics-based ragdoll soccer game where you control floppy athletes trying to score goals in tiny arenas. The hilarious physics engine makes every match unpredictable and side-splittingly funny. Play it unblocked with no download from our fast GitHub mirror — great for school breaks with friends." name="description"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>A Small World Cup</title>
+<script src="https://66games.io/cloak.js" type="text/javascript"></script>
+<!-- Standardised web app manifest -->
+<link href="appmanifest.json" rel="manifest"/>
+<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<link href="icon-256.png" rel="apple-touch-icon" sizes="256x256"/>
+<meta content="true" name="HandheldFriendly"/>
+<!-- Chrome for Android web app tags -->
+<meta content="yes" name="mobile-web-app-capable"/>
+<link href="icon-256.png" rel="shortcut icon" sizes="256x256"/>
+<!-- All margins and padding must be zero for the canvas to fill the screen. -->
+<style type="text/css">
 		* {
 			padding: 0;
 			margin: 0;
@@ -50,14 +45,10 @@
 			-ms-touch-action: none;
 		}
     </style>
-	
-
-</head> 
- 
-<body> 
-	<div id="fb-root"></div>
-	
-	<script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
 	// Issue a warning if trying to preview an exported project on disk.
 	(function(){
 		// Check for running exported on file protocol
@@ -67,37 +58,28 @@
 		}
 	})();
 	</script>
-	
-	<!-- The canvas must be inside a div called c2canvasdiv -->
-	<div id="c2canvasdiv">
-	
-		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+<!-- The canvas must be inside a div called c2canvasdiv -->
+<div id="c2canvasdiv">
+<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
 		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
-		<canvas id="c2canvas" width="700" height="400">
-			<!-- This text is displayed if the visitor's browser does not support HTML5.
+<canvas height="400" id="c2canvas" width="700">
+<!-- This text is displayed if the visitor's browser does not support HTML5.
 			You can change it, but it is a good idea to link to a description of a browser
 			and provide some links to download some popular HTML5-compatible browsers. -->
-			<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org">What is a browser?</a>
-			<br/><br/><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br/>
-			<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br/>
-			<a href="http://www.google.com/chrome/">Google Chrome</a><br/>
-			<a href="http://www.apple.com/safari/download/">Apple Safari</a></h1>
-		</canvas>
-		
-	</div>
-	
-	<!-- Pages load faster with scripts at the bottom -->
-	
-	<!-- Construct 2 exported games require jQuery. -->
-	<script src="jquery-2.1.1.min.js"></script>
-
-
-	
-    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org">What is a browser?</a>
+<br/><br/><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br/>
+<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br/>
+<a href="http://www.google.com/chrome/">Google Chrome</a><br/>
+<a href="http://www.apple.com/safari/download/">Apple Safari</a></h1>
+</canvas>
+</div>
+<!-- Pages load faster with scripts at the bottom -->
+<!-- Construct 2 exported games require jQuery. -->
+<script src="jquery-2.1.1.min.js"></script>
+<!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
     This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
-	<script src="c2runtime.js"></script>
-
-    <script>
+<script src="c2runtime.js"></script>
+<script>
 		// Start the Construct 2 project running on window load.
 		jQuery(document).ready(function ()
 		{			
@@ -152,5 +134,25 @@
 <!-- Presence tracker -->
 <script src="/JS/presence.js"></script>
 
-</body> 
-</html> <script defer src="htmlgame.js" type="text/javascript"></script>
+<div class="seo-content" style="max-width:860px;margin:20px auto;padding:20px;font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#333;background:#f9f9f9;border-top:2px solid #ddd;">
+<h2 style="font-size:1.4em;margin-bottom:10px;">How to Play A Small World Cup Unblocked</h2>
+<p>A Small World Cup is a physics-based ragdoll soccer game where you control floppy athletes trying to score goals in tiny arenas. The hilarious physics engine makes every match unpredictable and side-splittingly funny. Play it unblocked with no download from our fast GitHub mirror — great for school breaks with friends.</p>
+<h3 style="font-size:1.1em;margin-top:16px;">Controls</h3>
+<ul style="padding-left:20px;margin-top:6px;">
+<li><b>W / Up Arrow</b> — jump / flip</li>
+<li><b>A / D</b> — move left / right</li>
+<li><b>Player 2: Arrow Keys + M to jump</b></li>
+</ul>
+<h3 style="font-size:1.1em;margin-top:16px;">FAQ: Is A Small World Cup unblocked for school?</h3>
+<p>Yes! A Small World Cup is fully unblocked here. No download needed — play it directly in your browser.</p>
+</div>
+<div class="more-games-footer" style="max-width:860px;margin:20px auto;padding:16px 20px;font-family:Arial,sans-serif;font-size:14px;background:#eef2f7;border-top:1px solid #ccc;">
+<strong style="display:block;margin-bottom:8px;">More Unblocked Games</strong>
+<a href="/projects/slope/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Slope Unblocked</a>
+<a href="/projects/retro-bowl/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Retro Bowl Unblocked</a>
+<a href="/projects/cookie-clicker/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Cookie Clicker Unblocked</a>
+<a href="/projects/flappy-bird/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Flappy Bird Unblocked</a>
+<a href="/projects/among-us/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Among Us Unblocked</a>
+<a href="/projects/1v1.lol/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play 1v1.LOL Unblocked</a>
+</div></body>
+</html> <script defer="" src="htmlgame.js" type="text/javascript"></script>
