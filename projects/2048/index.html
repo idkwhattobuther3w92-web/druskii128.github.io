@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R1ZCLH6XCR"></script>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-R1ZCLH6XCR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -10,84 +11,83 @@
 
   gtag('config', 'G-R1ZCLH6XCR');
 </script>
-        <meta charset="utf-8" />
-        <title>2048</title>
-        <link href="style/main.css" rel="stylesheet" type="text/css" />
-        <link href="style/ai.css" rel="stylesheet" type="text/css" />
-        <link rel="shortcut icon" href="favicon.ico" />
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="MobileOptimized" content="320" />
-        <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-        <meta property="og:title" content="2048 game" />
-        <meta property="og:site_name" content="2048 game" />
-        <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!" />
-        <meta property="og:image" content="meta/og_image.png" />
-    </head>
-    <body>
-        <div class="container">
-            <div class="heading">
-                <h1 class="title">2048</h1>
-                <div class="score-container">0</div>
-            </div>
-            <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
-            <div class="controls">
-                <div id="hint-button-container">
-                    <button id="hint-button" class="ai-button">Get Hint</button>
-                </div>
-                <div id="feedback-container"></div>
-                <div id="run-button-container">
-                    <button id="run-button" class="ai-button">Auto-run</button>
-                </div>
-            </div>
-            <div class="game-container">
-                <div class="game-message">
-                    <p></p>
-                    <div class="lower">
-                        <a class="retry-button">Try again</a>
-                        <div class="score-sharing"></div>
-                    </div>
-                </div>
-                <div class="grid-container">
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                </div>
-                <div class="tile-container"></div>
-            </div>
-            <p class="game-explanation"><strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong></p>
-        </div>
-
-        <script src="js/animframe_polyfill.js"></script>
-        <script src="js/hammer.min.js"></script>
-        <script src="js/keyboard_input_manager.js"></script>
-        <script src="js/html_actuator.js"></script>
-        <script src="js/grid.js"></script>
-        <script src="js/tile.js"></script>
-        <script src="js/ai.js"></script>
-        <script src="js/game_manager.js"></script>
-        <script src="js/application.js"></script>
-        <script type="application/javascript" src="/js/main.js"></script>
+<meta charset="utf-8"/><meta content="2048 is the addictive sliding tile puzzle game where you merge matching numbered tiles to reach the coveted 2048 tile — and beyond. Swipe in any direction to push all tiles, and identical tiles merge into one with their combined value. Plan each move carefully to keep the board from filling up. Play 2048 unblocked right here with no download required — accessible from school networks via our fast GitHub mirror." name="description"/>
+<title>2048</title>
+<link href="style/main.css" rel="stylesheet" type="text/css"/>
+<link href="style/ai.css" rel="stylesheet" type="text/css"/>
+<link href="favicon.ico" rel="shortcut icon"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="320" name="MobileOptimized"/>
+<meta content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport"/>
+<meta content="2048 game" property="og:title"/>
+<meta content="2048 game" property="og:site_name"/>
+<meta content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!" property="og:description"/>
+<meta content="meta/og_image.png" property="og:image"/>
+</head>
+<body>
+<div class="container">
+<div class="heading">
+<h1 class="title">2048</h1>
+<div class="score-container">0</div>
+</div>
+<p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+<div class="controls">
+<div id="hint-button-container">
+<button class="ai-button" id="hint-button">Get Hint</button>
+</div>
+<div id="feedback-container"></div>
+<div id="run-button-container">
+<button class="ai-button" id="run-button">Auto-run</button>
+</div>
+</div>
+<div class="game-container">
+<div class="game-message">
+<p></p>
+<div class="lower">
+<a class="retry-button">Try again</a>
+<div class="score-sharing"></div>
+</div>
+</div>
+<div class="grid-container">
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+</div>
+<div class="tile-container"></div>
+</div>
+<p class="game-explanation"><strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong></p>
+</div>
+<script src="js/animframe_polyfill.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/keyboard_input_manager.js"></script>
+<script src="js/html_actuator.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/tile.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/game_manager.js"></script>
+<script src="js/application.js"></script>
+<script src="/js/main.js" type="application/javascript"></script>
 <!-- Firebase (compat) -->
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
@@ -96,5 +96,25 @@
 <!-- Presence tracker -->
 <script src="/JS/presence.js"></script>
 
-    </body>
+<div class="seo-content" style="max-width:860px;margin:20px auto;padding:20px;font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#333;background:#f9f9f9;border-top:2px solid #ddd;">
+<h2 style="font-size:1.4em;margin-bottom:10px;">How to Play 2048 Unblocked</h2>
+<p>2048 is the addictive sliding tile puzzle game where you merge matching numbered tiles to reach the coveted 2048 tile — and beyond. Swipe in any direction to push all tiles, and identical tiles merge into one with their combined value. Plan each move carefully to keep the board from filling up. Play 2048 unblocked right here with no download required — accessible from school networks via our fast GitHub mirror.</p>
+<h3 style="font-size:1.1em;margin-top:16px;">Controls</h3>
+<ul style="padding-left:20px;margin-top:6px;">
+<li><b>Arrow Keys</b> — slide all tiles up/down/left/right</li>
+<li><b>W / A / S / D</b> — slide tiles (alternative)</li>
+<li><b>Swipe</b> (mobile) — slide tiles</li>
+</ul>
+<h3 style="font-size:1.1em;margin-top:16px;">FAQ: Is 2048 unblocked for school?</h3>
+<p>Yes! 2048 is completely unblocked on this site and plays instantly in any browser. Perfect for school breaks — no download or installation required.</p>
+</div>
+<div class="more-games-footer" style="max-width:860px;margin:20px auto;padding:16px 20px;font-family:Arial,sans-serif;font-size:14px;background:#eef2f7;border-top:1px solid #ccc;">
+<strong style="display:block;margin-bottom:8px;">More Unblocked Games</strong>
+<a href="/projects/slope/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Slope Unblocked</a>
+<a href="/projects/retro-bowl/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Retro Bowl Unblocked</a>
+<a href="/projects/cookie-clicker/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Cookie Clicker Unblocked</a>
+<a href="/projects/flappy-bird/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Flappy Bird Unblocked</a>
+<a href="/projects/among-us/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play Among Us Unblocked</a>
+<a href="/projects/1v1.lol/" style="color:#4a90d9;text-decoration:none;margin:4px 8px;display:inline-block;">Play 1v1.LOL Unblocked</a>
+</div></body>
 </html>
